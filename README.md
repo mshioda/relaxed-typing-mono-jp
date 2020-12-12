@@ -9,9 +9,13 @@ This font family has Japanese glyphs with exactly twice width of Latin glyphs an
 You can download the fonts from [here](https://github.com/mshioda/relaxed-typing-mono/releases).
 
 ## Screenshot
-![Screenshot](./images/screenshot-1.png)
+#### Notepad for Windows
+![Screenshot](./images/screenshot-notepad.png)
+
+#### Atom for macOS
+![Screenshot](./images/screenshot-atom.png)
 
 ## How to Generate
 1. Download Source Code Pro (TTF) and Noto Sans JP (OTF)
-2. Place them in `resources` directory
-3. Execute `script.py` (you need `fontforge` Python library)
+2. Put them in `resources` directory
+3. Execute `script.py` (required `fontforge` Python library)
