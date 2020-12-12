@@ -5,7 +5,10 @@ Relaxed Typing Mono is a derivative of Source Code Pro and Noto Sans JP.  Latin 
 
 This font family has Japanese glyphs with exactly twice width of Latin glyphs and some fullwidth geometric symbols (such as "■") which may be halfwidth in other fonts.
 
-## Sample
+## Download
+You can download the fonts from [here](https://github.com/mshioda/relaxed-typing-mono/releases).
+
+## Screenshot
 ![Screenshot](./images/screenshot-1.png)
 
 ## How to Generate

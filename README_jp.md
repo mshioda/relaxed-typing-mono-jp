@@ -5,6 +5,9 @@ Relaxed Typing Mono は、Source Code Pro と Noto Sans JP の派生フォント
 
 このフォントでは、漢字は英数字のちょうど 2 倍の幅になっています。また、「■」など、ときどき半角文字のように扱われる記号も全角になっています。
 
+## ダウンロード
+フォントは[こちら](https://github.com/mshioda/relaxed-typing-mono/releases)からダウンロードできます。
+
 ## 表示例
 ![スクリーンショット](./images/screenshot-1.png)
 
