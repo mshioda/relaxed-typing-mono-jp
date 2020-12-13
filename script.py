@@ -6,7 +6,7 @@ from glyph_filter import ranges as filter_ranges
 from os2_weights import os2_weights
 
 weight = "Regular" if len(argv) == 1 else argv[1]
-version = "1.00"
+version = "1.01"
 
 if not os2_weights.has_key(weight):
     raise Exception("Unknown weight: {}".format(weight))
@@ -66,9 +66,9 @@ latin.selection.none()
 for n in range(1, 17):
     do_merge(n)
 
-latin.fontname = "RelaxedTypingMono-{}".format(weight)
-latin.familyname = "Relaxed Typing Mono"
-latin.fullname = "Relaxed Typing Mono-{}".format(weight)
+latin.fontname = "RelaxedTypingMonoJP-{}".format(weight)
+latin.familyname = "Relaxed Typing Mono JP"
+latin.fullname = "Relaxed Typing Mono JP-{}".format(weight)
 latin.os2_weight = os2_weights[weight]
 latin.os2_vendor = "MSHD"
 latin.sfntRevision = float(version)
@@ -81,4 +81,4 @@ Copyright -2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
 """.format(sfnt_find_first("Copyright")[2])
 latin.sfnt_names = ()
 
-latin.generate("RelaxedTypingMono-{}.ttf".format(weight))
+latin.generate("RelaxedTypingMonoJP-{}.ttf".format(weight))

@@ -1,12 +1,12 @@
 [Read me in English](./README.md)
 
-# Relaxed Typing Mono
-Relaxed Typing Mono は、Source Code Pro と Noto Sans JP の派生フォントです。英数字は Source Code Pro、漢字は Noto Sans JP をもとにしています。
+# このフォントについて
+Relaxed Typing Mono JP は、Source Code Pro と Noto Sans JP の派生フォントファミリーです。英数字は Source Code Pro、漢字は Noto Sans JP をもとにしています。
 
-このフォントでは、漢字は英数字のちょうど 2 倍の幅になっています。また、「■」など、ときどき半角文字として扱われる記号も全角になっています。
+このフォントは、漢字（などの全角文字）が英数字（などの半角文字）のちょうど 2 倍の幅になるようにつくられています。また、「■」など、ときどき半角文字として扱われる記号も全角幅でつくられています。
 
 ## ダウンロード
-フォントは[こちら](https://github.com/mshioda/relaxed-typing-mono/releases)からダウンロードできます。
+フォントは[こちら](./releases)からダウンロードできます。
 
 ## 表示例
 #### Windows 上のメモ帳の場合
