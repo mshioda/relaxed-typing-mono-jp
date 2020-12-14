@@ -4,9 +4,9 @@ from sys import stderr, argv
 from compat_map import compat_map
 from glyph_filter import ranges as filter_ranges
 from os2_weights import os2_weights
+from version import version
 
 weight = "Regular" if len(argv) == 1 else argv[1]
-version = "1.01"
 
 if not os2_weights.has_key(weight):
     raise Exception("Unknown weight: {}".format(weight))
@@ -78,6 +78,9 @@ latin.copyright = """Source Code Pro:
 
 Noto Sans JP:
 Copyright -2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+
+Relaxed Typing Mono JP:
+Copyright 2020 SHIODA Masaharu, with Reserved Font Name 'Relaxed Typing Mono'.
 """.format(sfnt_find_first("Copyright")[2])
 latin.sfnt_names = ()
 
