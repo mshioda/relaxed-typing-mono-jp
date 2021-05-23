@@ -18,4 +18,5 @@ Relaxed Typing Mono JP は、Source Code Pro と Noto Sans JP の派生フォン
 ## 生成の仕方
 1. Source Code Pro（TTF）と Noto Sans JP（OTF）をダウンロードしてください
 2. それらを `resources` ディレクトリに入れます
-3. `script.py` を実行します（`fontforge` Python ライブラリが必要です）
+3. `conv-ttf.sh` を実行します（`otf2ttf` が必要です）
+4. `script.py` を実行します（`fontforge` Python ライブラリが必要です）

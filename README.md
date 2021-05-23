@@ -18,4 +18,5 @@ You can get the fonts from [here](https://github.com/mshioda/relaxed-typing-mono
 ## How to Generate
 1. Download Source Code Pro (TTF) and Noto Sans JP (OTF)
 2. Put them in `resources` directory
-3. Execute `script.py` (required `fontforge` Python library)
+3. Execute `conv-ttf.sh` (required `otf2ttf`)
+4. Execute `script.py` (required `fontforge` Python library)
