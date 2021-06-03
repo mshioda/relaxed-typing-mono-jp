@@ -27,10 +27,11 @@ def is_halfwidth(codepoint):
     return 0xFF61 <= codepoint <= 0xFFDC or 0xFFE8 <= codepoint <= 0xFFEE
 
 def do_paste(glyph):
-    han.selection.select(glyph.unicode)
+    han.selection.select(glyph.glyphname)
     han.copy()
 
     code = compat_map.get(glyph.unicode) or glyph.unicode
+    if code in latin: code = glyph.unicode
 
     latin.selection.select(code)
     latin.paste()
